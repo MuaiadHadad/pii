@@ -1,0 +1,8 @@
+// URL base da API
+@apiurl = http://localhost:8080
+
+### Uma rota que não existe - devolverá 404 
+POST {{apiurl}}/teste HTTP/1.1
+
+### Uma rota de teste - GET
+GET {{apiurl}}/teste HTTP/1.1
